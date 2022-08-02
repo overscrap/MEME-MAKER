@@ -1,0 +1,23 @@
+body{
+    height: 100vh;
+    font-size: 24px;
+    padding: 30px;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.content__column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
