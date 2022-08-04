@@ -1,10 +1,29 @@
 canvas{
-    width: 800px;
-    height: 800px;
+    width: 500px;
+    height: 500px;
     border: 5px solid black;
 }
 body{
+    width: 100vw;
+    height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.column{
+    margin-bottom: 5px;
+}
+.color-option{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    border: 1px solid black;
+}
+.color-option__selected{
+    text-align: center;
+    margin-bottom: 5px;
+}
+.color-option__column{
+    display: flex;
 }
